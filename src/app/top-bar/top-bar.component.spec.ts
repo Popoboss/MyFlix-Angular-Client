@@ -6,12 +6,10 @@ describe('TopBarComponent', () => {
   let component: TopBarComponent;
   let fixture: ComponentFixture<TopBarComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
+  beforeEach(() => {
+    TestBed.configureTestingModule({
       declarations: [TopBarComponent]
-    })
-      .compileComponents();
-
+    });
     fixture = TestBed.createComponent(TopBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
