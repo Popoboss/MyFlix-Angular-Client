@@ -4,6 +4,7 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http
 import { Observable, throwError } from 'rxjs';
 
 
+
 //Declaring the api url that will provide data for the client app
 const apiUrl = 'https://wlad-movie-apps.herokuapp.com/';
 @Injectable({
